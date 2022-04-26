@@ -21,16 +21,10 @@ Vous trouverez une petite liste ci-dessous dans lequel je m'entraine à en crée
 <br/>[Selection Sort](#selection-sort)
 
 ## Bubble Sort
-<p align="center">
-  <img 
-    width="300"
-    height="300"
-    src="https://user-images.githubusercontent.com/102417356/165281342-f652d097-7713-4c5b-ad59-6df1b21b0df8.gif"
-  >
-</p>
+![Bubble_sort_with_flag](https://user-images.githubusercontent.com/102417356/165281625-8ababea5-f053-4717-a92f-1055069eb0e4.gif)
 Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre.
-<br/>Exemple :  
-<br/>**Premier passage :** 
+<br/><br/>**Exemple :**  
+**Premier passage :** 
 <br/>( **5 1** 4 2 8 ) ➜ ( **1 5** 4 2 8 ), Ici, l'algorithme compare les deux premiers éléments, et permute depuis 5 > 1. 
 <br/>( 1 **5 4** 2 8 ) ➜ ( 1 **4 5** 2 8 ), Échange depuis 5 > 4 
 <br/>( 1 4 **5 2** 8 ) ➜ ( 1 4 **2 5** 8 ), Échange depuis 5 > 2 
