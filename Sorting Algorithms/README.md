@@ -1,4 +1,3 @@
-# Table of Contents
 <p align="center">
   <img 
     width="300"
@@ -6,7 +5,7 @@
     src="https://user-images.githubusercontent.com/102417356/165273721-01bca157-c51f-4bb3-8f91-f2459ea91740.gif"
   >
 </p>
-
+# Table of Contents
 1. [Bubble Sort](#bubble-sort)
 2. [Bucket Sort](#bucket-sort)
 3. [Counting Sort](#counting-sort)
