@@ -21,6 +21,13 @@ Vous trouverez une petite liste ci-dessous dans lequel je m'entraine à en crée
 <br/>[Selection Sort](#selection-sort)
 
 ## Bubble Sort
+<p align="center">
+  <img 
+    width="300"
+    height="300"
+    src="https://user-images.githubusercontent.com/102417356/165281342-f652d097-7713-4c5b-ad59-6df1b21b0df8.gif"
+  >
+</p>
 Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre.
 <br/>Exemple :  
 <br/>**Premier passage :** 
