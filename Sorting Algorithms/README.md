@@ -7,45 +7,45 @@
 </p>
 
 # Table of Contents
-1. [Bubble Sort](#bubble-sort)
-2. [Bucket Sort](#bucket-sort)
-3. [Counting Sort](#counting-sort)
-4. [Heap Sort](#heap-sort)
-5. [Insertion Sort](#insertion-sort)
-6. [Merge Sort](#merge-sort)
-7. [Quick Sort](#quick-sort)
-8. [Radix Sort](#radix-sort)
-9. [Selection Sort](#selection-sort)
+<br/>[Bubble Sort](#bubble-sort)
+<br/>[Bucket Sort](#bucket-sort)
+<br/>[Counting Sort](#counting-sort)
+<br/>[Heap Sort](#heap-sort)
+<br/>[Insertion Sort](#insertion-sort)
+<br/>[Merge Sort](#merge-sort)
+<br/>[Quick Sort](#quick-sort)
+<br/>[Radix Sort](#radix-sort)
+<br/>[Selection Sort](#selection-sort)
 
 ## Bubble Sort
-Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.</br>
-Example:</br>
-**First Pass:**</br>
-( **5 1** 4 2 8 ) –> ( **1 5** 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.</br>
-( 1 **5 4** 2 8 ) –>  ( 1 **4 5** 2 8 ), Swap since 5 > 4</br>
-( 1 4 **5 2** 8 ) –>  ( 1 4 **2 5** 8 ), Swap since 5 > 2</br>
-( 1 4 2 **5 8** ) –> ( 1 4 2 **5 8** ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.</br>
-</br>
-**Second Pass:**</br>
-( **1 4** 2 5 8 ) –> ( **1 4** 2 5 8 )</br>
-( 1 **4 2** 5 8 ) –> ( 1 **2 4** 5 8 ), Swap since 4 > 2</br>
-( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 )</br>
-( 1 2 4 **5 8** ) –>  ( 1 2 4 **5 8** )</br>
-Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any swap to know it is sorted.</br>
-**Third Pass:**</br>
-( **1 2** 4 5 8 ) –> ( **1 2** 4 5 8 )</br>
-( 1 **2 4** 5 8 ) –> ( 1 **2 4** 5 8 )</br> 
-( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 )</br>
-( 1 2 4 **5 8** ) –> ( 1 2 4 **5 8** )</br>
-</br>
-**Worst and Average Case Time Complexity:** O(n*n). The worst-case occurs when an array is reverse sorted.</br>
-**Best Case Time Complexity:** O(n). The best-case occurs when an array is already sorted</br>
-**Auxiliary Space:** O(1)</br>
-**Boundary Cases:** Bubble sort takes minimum time (Order of n) when elements are already sorted.</br>
-**Sorting In Place:** Yes</br>
-**Stable:** Yes</br>
-Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm. </br>
-In computer graphics, it is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). For example, it is used in a polygon filling algorithm, where bounding lines are sorted by their x coordinate at a specific scan line (a line parallel to x-axis) and with incrementing y their order changes (two elements are swapped) only at intersections of two lines.</br>
+Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre.
+<br/>Exemple :  
+<br/>**Premier passage :** 
+<br/>( **5 1** 4 2 8 ) –> ( **1 5** 4 2 8 ), Ici, l'algorithme compare les deux premiers éléments, et permute depuis 5 > 1. 
+<br/>( 1 **5 4** 2 8 ) –> ( 1 **4 5** 2 8 ), Échange depuis 5 > 4 
+<br/>( 1 4 **5 2** 8 ) –> ( 1 4 **2 5** 8 ), Échange depuis 5 > 2 
+<br/>( 1 4 2 **5 8** ) –> ( 1 4 2 **5 8** )), Maintenant, puisque ces éléments sont déjà dans l'ordre (8 > 5), l'algorithme ne les permute pas.
+<br/>**Deuxième passe :** 
+<br/>( **1 4** 2 5 8 ) –> ( **1 4** 2 5 8 ) 
+<br/>( 1 **4 2** 5 8 ) –> ( 1 **2 4** 5 8 ), Échange depuis 4 > 2 
+<br/>( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 ) 
+<br/>( 1 2 4 **5 8** ) –> ( 1 2 4 **5 8** ) 
+<br/>Maintenant, le tableau est déjà trié, mais notre algorithme ne sait pas s'il est complet. L'algorithme a besoin d'une passe entière sans aucun échange pour savoir qu'il est trié.
+<br/>**Troisième passe :** 
+<br/>( **1 2** 4 5 8 ) –> ( **1 2** 4 5 8 ) 
+<br/>( 1 **2 4** 5 8 ) –> ( 1 **2 4** 5 8 ) 
+<br/>( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 ) ) 
+<br/>( 1 2 4 **5 8** ) -> ( 1 2 4 **5 8** )
+<br/>
+<br/>**Complexité temporelle du cas le plus défavorable et moyenne :** O(n*n). Le pire des cas se produit lorsqu'un tableau est trié en sens inverse.
+<br/>**Complexité temporelle dans le meilleur des cas :** O(n). Le meilleur des cas se produit lorsqu'un tableau est déjà trié.
+<br/>**Espace auxiliaire :** O(1)
+<br/>**Cas limites :** le tri à bulles prend un temps minimum (ordre de n) lorsque les éléments sont déjà triés.
+<br/>**Tri sur place :** Oui
+<br/>**Stable :** Oui
+<br/><br/>En raison de sa simplicité, le tri à bulles est souvent utilisé pour introduire le concept d'algorithme de tri. 
+En infographie, il est populaire pour sa capacité à détecter une très petite erreur (comme l'échange de seulement deux éléments) dans des tableaux presque triés et à la corriger avec une complexité linéaire (2n). Par exemple, il est utilisé dans un algorithme de remplissage de polygones, où les lignes de délimitation sont triées par leur coordonnée x à une ligne de balayage spécifique (une ligne parallèle à l'axe des x) et avec l'incrémentation de y, leur ordre change (deux éléments sont permutés) uniquement à intersections de deux lignes.
+
 ## Bucket Sort
 some text.
 ## Counting Sort
