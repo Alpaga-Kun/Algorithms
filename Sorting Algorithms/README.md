@@ -27,7 +27,7 @@ Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant
 <br/>( **5 1** 4 2 8 ) –> ( **1 5** 4 2 8 ), Ici, l'algorithme compare les deux premiers éléments, et permute depuis 5 > 1. 
 <br/>( 1 **5 4** 2 8 ) –> ( 1 **4 5** 2 8 ), Échange depuis 5 > 4 
 <br/>( 1 4 **5 2** 8 ) –> ( 1 4 **2 5** 8 ), Échange depuis 5 > 2 
-<br/>( 1 4 2 **5 8** ) –> ( 1 4 2 **5 8** )), Maintenant, puisque ces éléments sont déjà dans l'ordre (8 > 5), l'algorithme ne les permute pas.
+<br/>( 1 4 2 **5 8** ) –> ( 1 4 2 **5 8** ), Maintenant, puisque ces éléments sont déjà dans l'ordre (8 > 5), l'algorithme ne les permute pas.
 <br/>**Deuxième passe :** 
 <br/>( **1 4** 2 5 8 ) –> ( **1 4** 2 5 8 ) 
 <br/>( 1 **4 2** 5 8 ) –> ( 1 **2 4** 5 8 ), Échange depuis 4 > 2 
@@ -37,7 +37,7 @@ Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant
 <br/>**Troisième passe :** 
 <br/>( **1 2** 4 5 8 ) –> ( **1 2** 4 5 8 ) 
 <br/>( 1 **2 4** 5 8 ) –> ( 1 **2 4** 5 8 ) 
-<br/>( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 ) ) 
+<br/>( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 )
 <br/>( 1 2 4 **5 8** ) -> ( 1 2 4 **5 8** )
 <br/>
 <br/>**Complexité temporelle du cas le plus défavorable et moyenne :** O(n*n). Le pire des cas se produit lorsqu'un tableau est trié en sens inverse.
