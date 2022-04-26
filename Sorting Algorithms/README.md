@@ -22,7 +22,7 @@ Vous trouverez une petite liste ci-dessous dans lequel je m'entraine à en crée
 
 ## Bubble Sort
 ![Bubble_sort_with_flag](https://user-images.githubusercontent.com/102417356/165281625-8ababea5-f053-4717-a92f-1055069eb0e4.gif)
-Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre.
+**Bubble Sort** est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre.
 <br/><br/>**Exemple :**  
 **Premier passage :** 
 <br/>( **5 1** 4 2 8 ) ➜ ( **1 5** 4 2 8 ), Ici, l'algorithme compare les deux premiers éléments, et permute depuis 5 > 1. 
