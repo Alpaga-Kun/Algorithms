@@ -24,21 +24,21 @@ Vous trouverez une petite liste ci-dessous dans lequel je m'entraine à en crée
 Bubble Sort est l'algorithme de tri le plus simple qui fonctionne en échangeant à plusieurs reprises les éléments adjacents s'ils sont dans le mauvais ordre.
 <br/>Exemple :  
 <br/>**Premier passage :** 
-<br/>( **5 1** 4 2 8 ) –> ( **1 5** 4 2 8 ), Ici, l'algorithme compare les deux premiers éléments, et permute depuis 5 > 1. 
-<br/>( 1 **5 4** 2 8 ) –> ( 1 **4 5** 2 8 ), Échange depuis 5 > 4 
-<br/>( 1 4 **5 2** 8 ) –> ( 1 4 **2 5** 8 ), Échange depuis 5 > 2 
-<br/>( 1 4 2 **5 8** ) –> ( 1 4 2 **5 8** ), Maintenant, puisque ces éléments sont déjà dans l'ordre (8 > 5), l'algorithme ne les permute pas.
+<br/>( **5 1** 4 2 8 ) ➜ ( **1 5** 4 2 8 ), Ici, l'algorithme compare les deux premiers éléments, et permute depuis 5 > 1. 
+<br/>( 1 **5 4** 2 8 ) ➜ ( 1 **4 5** 2 8 ), Échange depuis 5 > 4 
+<br/>( 1 4 **5 2** 8 ) ➜ ( 1 4 **2 5** 8 ), Échange depuis 5 > 2 
+<br/>( 1 4 2 **5 8** ) ➜ ( 1 4 2 **5 8** ), Maintenant, puisque ces éléments sont déjà dans l'ordre (8 > 5), l'algorithme ne les permute pas.
 <br/>**Deuxième passe :** 
-<br/>( **1 4** 2 5 8 ) –> ( **1 4** 2 5 8 ) 
-<br/>( 1 **4 2** 5 8 ) –> ( 1 **2 4** 5 8 ), Échange depuis 4 > 2 
-<br/>( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 ) 
-<br/>( 1 2 4 **5 8** ) –> ( 1 2 4 **5 8** ) 
+<br/>( **1 4** 2 5 8 ) ➜ ( **1 4** 2 5 8 ) 
+<br/>( 1 **4 2** 5 8 ) ➜ ( 1 **2 4** 5 8 ), Échange depuis 4 > 2 
+<br/>( 1 2 **4 5** 8 ) ➜ ( 1 2 **4 5** 8 ) 
+<br/>( 1 2 4 **5 8** ) ➜ ( 1 2 4 **5 8** ) 
 <br/>Maintenant, le tableau est déjà trié, mais notre algorithme ne sait pas s'il est complet. L'algorithme a besoin d'une passe entière sans aucun échange pour savoir qu'il est trié.
 <br/>**Troisième passe :** 
-<br/>( **1 2** 4 5 8 ) –> ( **1 2** 4 5 8 ) 
-<br/>( 1 **2 4** 5 8 ) –> ( 1 **2 4** 5 8 ) 
-<br/>( 1 2 **4 5** 8 ) –> ( 1 2 **4 5** 8 )
-<br/>( 1 2 4 **5 8** ) -> ( 1 2 4 **5 8** )
+<br/>( **1 2** 4 5 8 ) ➜ ( **1 2** 4 5 8 ) 
+<br/>( 1 **2 4** 5 8 ) ➜ ( 1 **2 4** 5 8 ) 
+<br/>( 1 2 **4 5** 8 ) ➜ ( 1 2 **4 5** 8 )
+<br/>( 1 2 4 **5 8** ) ➜ ( 1 2 4 **5 8** )
 <br/>
 <br/>**Complexité temporelle du cas le plus défavorable et moyenne :** O(n*n). Le pire des cas se produit lorsqu'un tableau est trié en sens inverse.
 <br/>**Complexité temporelle dans le meilleur des cas :** O(n). Le meilleur des cas se produit lorsqu'un tableau est déjà trié.
