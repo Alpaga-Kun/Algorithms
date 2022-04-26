@@ -1,4 +1,11 @@
 # Table of Contents
+<p align="center">
+  <img 
+    width="300"
+    height="300"
+    src="https://user-images.githubusercontent.com/102417356/165272477-35c86f34-89d2-4e11-a7b3-81b82a3a4bb8.gif"
+  >
+</p>
 
 1. [Bubble Sort](#bubble-sort)
 2. [Bucket Sort](#bucket-sort)
