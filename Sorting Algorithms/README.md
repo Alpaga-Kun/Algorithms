@@ -6,6 +6,9 @@
   >
 </p>
 
+Un **algorithme de tri** est utilisé pour **réorganiser un tableau donné ou des éléments de liste** en fonction d'un opérateur de comparaison sur les éléments. L'opérateur de comparaison est utilisé pour décider du nouvel ordre des éléments dans la structure de données respective.</br>
+Vous trouverez une petite liste ci-dessous dans lequel je m'entraine à en créer.
+
 # Table of Contents
 <br/>[Bubble Sort](#bubble-sort)
 <br/>[Bucket Sort](#bucket-sort)
